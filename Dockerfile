@@ -12,6 +12,7 @@ RUN apt-get install -y -qq apache2 && \
 COPY index.html /var/www/html/index.html
 COPY logo.jpg /var/www/html/logo.jpg
 COPY cloud.jpg /var/www/html/cloud.jpg
+COPY NP.jpg /var/www/html/NP.jpg
 COPY 000-default.conf  /etc/apache2/sites-enabled/000-default.conf
 
 EXPOSE 80
